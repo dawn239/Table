@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <title>Fruit Order</title>
 </head>
 <body>
-    
+    <h1>Fruit Order</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Variety</th>
+                <th scope="col">Quantitiy</th>
+                <th scope="col">Cost per unit</th>
+                <th scope="col">Cost of items</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Apples</td>
+                <td>Gala</td>
+                <td>5</td>
+                <td>50p</td>
+                <td>£2.50</td>
+            </tr>
+            <tr>
+                <!--row spanned-->
+                <td>Granny Smith</td>
+                <td>5</td>
+                <td>52p</td>
+                <td>£2.60</td>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td>Williams</td>
+                <td>4</td>
+                <td>70p</td>
+                <td>£2.80</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td>Jaffa</td>
+                <td>10</td>
+                <td>65p</td>
+                <td>£6.50</td>
+            </tr>
+            <tr>
+                <td>Cherries</td>
+                <td>Morello</td>
+                <td>25</td>
+                <td>13p</td>
+                <td>£3.25</td>
+            </tr>
+            <tr>
+                <td>Pears</td>
+                <td>Conference</td>
+                <td>4</td>
+                <td>44p</td>
+                <td>£1.76</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td class="foot">Total items</td>
+                <td class="foot">53</td>
+                <td class="foot">Total cost</td>
+                <td class="foot">£19.41</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>

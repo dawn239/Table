@@ -1,0 +1,49 @@
+table, td {
+    border: 1px solid rgb(16, 124, 50);
+}
+
+thead th {
+    background: #3ec280;
+    color: #f3d128;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+td {
+    font-family: 'Arial', sans-serif;
+    color:#3ec280;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 20%;
+}
+
+table {
+        height: 40%;
+        left: 10%;
+        margin: 20px auto;
+        overflow-y: scroll;
+        position: static;
+        width: 80%;
+      }
+      
+tr {
+    background: #edfcb2;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+      }
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    color:#3ec280;
+    text-align: center;
+}
+
+.foot {
+    font-weight: 800;
+}
